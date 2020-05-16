@@ -1,0 +1,99 @@
+body {
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: lightgray;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3vh;
+    max-width: 80vw;
+    min-height: 90vh;
+    
+    
+}
+
+.tablero {
+    background-image: url('../img/floor1.png');
+    display: flex;
+    flex-wrap: wrap;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10vh;
+    min-height: 60vh;
+    width: 400px;
+    
+}
+
+.tableroInicial{
+    background-image: url('../img/floor1.png');
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10vh;
+    min-height: 60vh;
+    width: 400px;
+}
+
+.celda {
+    height: 50px;
+    width: 50px;
+}
+
+.granjero {
+    max-width: 100%;
+    height: 80%;
+    background-size: cover;                      
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+}
+
+h1 {
+    text-align: center;
+}
+
+section {
+    background-color: gray;
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 420px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10vh;
+    width: 40vh;
+}
+
+h3 {
+    text-align: center;
+}
+
+.divBotones {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+button {
+    margin: 1rem;
+}
+
+.puntuacion {
+    font-size: 24px;
+    font-family: fantasy;
+    text-align: center;
+}
+
+.gameover {
+    font-size: 24px;
+    font-family: fantasy;
+    text-align: center;
+    vertical-align: center;
+}
